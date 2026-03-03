@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: 文件格式转换器
+    runtime: python
+    rootDir: web_converter
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn -w 2 -b 0.0.0.0:$PORT --timeout 300 app:app
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0

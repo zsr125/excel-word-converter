@@ -1,0 +1,11 @@
+.DS_Store
+*.docx
+*.xlsx
+*.numbers
+*.pdf
+*.pptx
+__pycache__
+*.pyc
+*.preview.html
+venv/
+.venv/
