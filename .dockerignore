@@ -1,0 +1,12 @@
+.git
+.gitignore
+.DS_Store
+*.docx
+*.xlsx
+*.numbers
+*.pdf
+*.pptx
+*.preview.html
+__pycache__
+venv
+.venv
